@@ -1,0 +1,13 @@
+.review-box{
+    /* border: 1px solid gray; */
+    border-left:1px solid rgba(240, 32, 84, 0.904) ;
+    border-right:1px solid rgba(240, 32, 84, 0.904) ;
+    height: 12rem;
+   
+  
+   
+}
+.review-box:hover{
+    background-color: rgba(247, 176, 194, 0.931);
+
+}

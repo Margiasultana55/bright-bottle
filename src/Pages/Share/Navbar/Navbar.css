@@ -1,0 +1,27 @@
+.my-navbar{
+    background-color: rgba(240, 32, 84, 0.904);
+    
+}
+.login-btn{
+    border-radius: 20px;
+    border: 1px solid white;
+    color: white;
+    margin-left: 2rem;
+    
+}
+.login-btn:hover{
+    background-color: white;
+     color:rgba(231, 24, 59, 0.746) ;
+     font-weight: 600;
+   
+}
+.nav{
+    margin-left: 3rem;
+
+}
+.nav:hover{
+  
+    font-weight: 600;
+
+    
+}
