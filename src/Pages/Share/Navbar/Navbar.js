@@ -37,8 +37,8 @@ const Navbar = () => {
 
                             {
                                 user?.email ?
-                                    <div className="d-flex">
-
+                                    <div className="d-flex" style={{ alignItems: 'center' }}>
+                                        <span style={{ color: 'white' }}><i className="fas fa-user-circle fa-lg"></i> {user.displayName}</span>
                                         <button onClick={logout} className="btn btn-outline-white  login-btn px-4 me-4 " >Log out</button>
                                     </div>
                                     :

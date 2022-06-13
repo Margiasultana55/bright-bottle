@@ -18,7 +18,7 @@ const Banner = () => {
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active" data-bs-interval="10000">
-                        <img src={banner1} className="d-block w-100 img-fluid" style={{ height: '27rem' }} alt="..." />
+                        <img src={banner1} className="d-block w-100 img-fluid" style={{ height: '35rem' }} alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className='banner-text'>In the right light, at right time every thing is extraordinary</h5>
                             <p className='logo-text'>Bright bottle</p>
@@ -26,7 +26,7 @@ const Banner = () => {
                     </div>
 
                     <div className="carousel-item">
-                        <img src={banner3} className="d-block w-100 img-fluid" style={{ height: '27rem' }} alt="..." />
+                        <img src={banner3} className="d-block w-100 img-fluid" style={{ height: '35rem' }} alt="..." />
                         <div className="carousel-caption d-none d-md-block">
                             <h5 className='banner-text'>In the right light, at right time every thing is extraordinary</h5>
                             <p className='logo-text'>Bright bottle</p>

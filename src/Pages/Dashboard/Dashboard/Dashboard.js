@@ -45,6 +45,7 @@ function Dashboard(props) {
         <div>
             <Toolbar />
             <Divider />
+            <Link style={{ textDecoration: 'none', color: 'black' }} to='/home'><Button color="inherit" style={{ fontSize: '1rem', marginTop: 10 }}>Home</Button></Link><br />
             <Link style={{ textDecoration: 'none', color: 'black' }} to='/products'><Button color="inherit" style={{ fontSize: '1rem', marginTop: 10 }}>Products</Button></Link><br />
             <Link style={{ textDecoration: 'none', color: 'black' }} to={`${url}/myOrders`}><Button color="inherit" style={{ fontSize: '1rem', marginTop: 10 }}>My Orders</Button></Link><br />
             <Link style={{ textDecoration: 'none', color: 'black' }} to={`${url}/pay`}><Button style={{ fontSize: '1rem', marginTop: 10 }} color="inherit">Payment</Button></Link><br />
